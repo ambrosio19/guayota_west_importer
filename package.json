@@ -1,0 +1,12 @@
+{
+    "name": "guayo_node",
+    "description": "guayota node",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "flow_guayo_node.json",
+            "credentialsFile": "flow_guayo_node_cred.json"
+        }
+    }
+}
