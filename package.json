@@ -2,7 +2,12 @@
     "name": "guayo_node",
     "description": "guayota node",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-influxdb": "0.2.2",
+        "node-red-contrib-ui-led": "0.2.3",
+        "node-red-dashboard": "2.14.0",
+        "node-red-contrib-postgres-multi": "0.2.0"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flow_guayo_node.json",
